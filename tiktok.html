@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Connect - Dave Got It Wrong</title><meta name="description" content="Dave Got It Wrong - the hidden physics of your home, explained by the man who gets it wrong first.">
+<link rel="icon" href="img/avatar.jpg"><link rel="stylesheet" href="style.css"></head>
+<body><div class="wrap">
+<header><img src="img/avatar.jpg" alt="Dave"><a href="./">DAVE GOT IT WRONG</a>
+<nav><a href="./">Home</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a></nav></header>
+<h1>Connection code</h1>
+<div id="ok" style="display:none"><p>Copy this code and paste it into the <b>[DAVE] TikTok koppelen</b> workflow. It works only once and expires in a few minutes.</p>
+<div class="code" id="code"></div><button onclick="navigator.clipboard.writeText(document.getElementById('code').textContent).then(()=>this.textContent='Copied ✓')">Copy code</button></div>
+<div id="err" style="display:none" class="card"></div>
+<div id="none"><p>This page receives the one-time code after connecting the Dave Got It Wrong account. There is nothing to do here otherwise.</p></div>
+<script>
+var q=new URLSearchParams(location.search),c=q.get('code'),e=q.get('error');
+if(c){document.getElementById('code').textContent=c;document.getElementById('ok').style.display='block';document.getElementById('none').style.display='none';}
+else if(e){var d=document.getElementById('err');d.textContent='Error: '+e+' '+(q.get('error_description')||'');d.style.display='block';document.getElementById('none').style.display='none';}
+</script>
+<footer>© 2026 Dave Got It Wrong · Contact: <a href="mailto:davegotitwrong@gmail.com">davegotitwrong@gmail.com</a> · <a href="privacy.html">Privacy Policy</a> · <a href="terms.html">Terms of Service</a></footer></div></body></html>

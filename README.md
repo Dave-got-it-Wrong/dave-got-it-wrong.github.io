@@ -1,2 +1,3 @@
 # dave-got-it-wrong.github.io
-Dave Got It Wrong - website, privacy policy and terms
+
+Website of **Dave Got It Wrong**: home, privacy policy, terms and the TikTok connection page.
